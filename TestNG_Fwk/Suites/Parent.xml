@@ -1,0 +1,9 @@
+<suite name="Parent suite">
+	<listeners>
+		<listener class-name="listeners.I_SuiteListener"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="./Suites/Children/pass.xml"></suite-file>
+		<suite-file path="./Suites/Children/fail.xml"></suite-file>
+	</suite-files>
+</suite>
